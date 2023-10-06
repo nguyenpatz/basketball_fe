@@ -1,7 +1,41 @@
 .body-header {
-  background-image: url("../images/basketball-court.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 1000px;
-  height: 1000px;
+  background: rgb(237, 210, 229);
+  background: radial-gradient(
+    circle,
+    rgba(237, 210, 229, 1) 0%,
+    rgba(255, 255, 255, 1) 70%
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .rainbow-text {
+    margin-top: 20px;
+    text-align: center;
+    background-color: transparent;
+  }
+
+  .basketball-container-icon {
+    display: flex;
+    background-color: transparent;
+    .basketball-icon {
+      display: block;
+      width: 30px;
+      height: 30px;
+      background-color: transparent;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+  .body-header-content {
+    margin-top: 50px;
+    background-color: transparent;
+    .header-content {
+      background-color: transparent;
+      margin-bottom: 20px;
+      font-weight: 500;
+      font-size: 1.3rem;
+    }
+  }
 }
