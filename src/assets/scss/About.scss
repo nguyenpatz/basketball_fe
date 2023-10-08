@@ -1,0 +1,22 @@
+.about-section {
+  margin-top: 40px;
+  .about-section-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .about-header {
+    display: grid;
+    grid-template-columns: repeat(5, calc(100% / 5));
+    img {
+    width: 100%;
+    height: 450px;
+    }
+  }
+  .about-body {
+    display: flex;
+    align-items: center;
+    .about-header-date {
+      font-weight: 700;
+    }
+  }
+}

@@ -14,18 +14,20 @@
 
   .header-2 {
     display: flex;
-    width: 300px;
+    width: 500px;
     justify-content: space-between;
     text-align: center;
 
     div {
       cursor: pointer;
+      font-weight: 600;
     }
   }
 
   .header-3 {
     div {
       cursor: pointer;
+      font-weight: 600;
     }
   }
 }
