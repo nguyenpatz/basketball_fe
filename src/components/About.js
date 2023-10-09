@@ -31,6 +31,7 @@ export default function About() {
           <span className="about-header-date">02/22/2022</span>
         </p>
         <p>Địa chỉ: <span className="about-header-address">498 Đà Nẵng - Đông Hải - Hải An - Hải Phòng</span> </p>
+        {/* <p>Các thà</p>  */}
       </div>
     </div>
   );
