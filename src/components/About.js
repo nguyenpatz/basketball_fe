@@ -30,6 +30,7 @@ export default function About() {
           Câu lạc bộ bóng rổ Tuổi trẻ thành lập vào ngày{" "}
           <span className="about-header-date">02/22/2022</span>
         </p>
+        <p>Địa chỉ: <span className="about-header-address">498 Đà Nẵng - Đông Hải - Hải An - Hải Phòng</span> </p>
       </div>
     </div>
   );
